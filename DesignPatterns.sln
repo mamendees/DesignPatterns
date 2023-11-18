@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{015E11B5-4C42-42E7-BEEA-4CDD9102CD6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "DesignPatterns\Creational\AbstractFactory\AbstractFactory.csproj", "{12C16E5F-09A9-429E-AB8A-F4889E2D44DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "DesignPatterns\Creational\Builder\Builder.csproj", "{91D036BD-59CC-4903-9156-CB58E991C603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "DesignPatterns\Creational\FactoryMethod\FactoryMethod.csproj", "{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C16E5F-09A9-429E-AB8A-F4889E2D44DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C16E5F-09A9-429E-AB8A-F4889E2D44DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C16E5F-09A9-429E-AB8A-F4889E2D44DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C16E5F-09A9-429E-AB8A-F4889E2D44DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D036BD-59CC-4903-9156-CB58E991C603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D036BD-59CC-4903-9156-CB58E991C603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D036BD-59CC-4903-9156-CB58E991C603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D036BD-59CC-4903-9156-CB58E991C603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12C16E5F-09A9-429E-AB8A-F4889E2D44DA} = {015E11B5-4C42-42E7-BEEA-4CDD9102CD6F}
+		{91D036BD-59CC-4903-9156-CB58E991C603} = {015E11B5-4C42-42E7-BEEA-4CDD9102CD6F}
+		{EBD49FA3-AD46-4DC4-AD2E-15425789B8C2} = {015E11B5-4C42-42E7-BEEA-4CDD9102CD6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C0210FE-F852-441F-AB94-79958AC0388F}
+	EndGlobalSection
+EndGlobal
